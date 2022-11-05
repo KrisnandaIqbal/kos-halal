@@ -118,10 +118,13 @@ section {
 
 .home {
   background-color: var(--dark-bg);
+  /* border: 1px solid #fff; */
+  
 }
 
 .home .content {
-  width: 55rem;
+  width: 600px;
+  /* border: 1px solid #fff; */
   padding: 0;
 }
 
@@ -388,13 +391,13 @@ section {
   }
 
   section {
-    padding: 5rem 2rem;
+    padding: 500px 200px;
   }
 }
 
 @media (max-width: 768px) {
   section {
-    padding: 3rem 1rem;
+    padding: 300px 100px;
   }
 
   #menu-btn {
