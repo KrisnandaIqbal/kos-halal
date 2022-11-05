@@ -52,9 +52,8 @@
 }
 
 .dark .btn-rounded:hover,
-.dark .btn-rounded.active,
-.btn-rounded:hover,
-.btn-rounded.active {
+.btn-rounded:hover
+ {
   color: var(--blue-primary);
   background-color: #181A1B;
 }
