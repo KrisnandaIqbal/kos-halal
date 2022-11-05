@@ -46,8 +46,8 @@
 }
 
 .btn-rounded {
-  color: var(--blue-primary);
-  background-color: #f6fafd;
+  color: #fff;
+  background-color: var(--blue-primary);
   border: 1px solid var(--blue-primary);
 }
 
@@ -55,6 +55,6 @@
 .dark .btn-rounded.active,
 .btn-rounded:hover,
 .btn-rounded.active {
-  color: white;
-  background-color: var(--blue-primary);
+  color: var(--blue-primary);
+  background-color: #181A1B;
 }
