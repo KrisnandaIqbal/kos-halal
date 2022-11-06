@@ -49,6 +49,18 @@
 }
 
 .btn-setting {
+  border: 1px solid;
+  color: #9e9e9e;
+  background-color: #f8f9fd ;
+  width: 50px;
+  height: 50px;  
+}
+
+.btn-setting:hover{
+  color: var(--blue-primary);
+}
+
+.dark .btn-setting {
   border: none;
   color: #9e9e9e;
   background-color: #181a1b;
@@ -56,7 +68,7 @@
   height: 50px;
 }
 
-.btn-setting:hover {
+.dark .btn-setting:hover {
  color: var(--blue-primary);
 }
 

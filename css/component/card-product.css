@@ -51,8 +51,13 @@
   border: 1px solid var(--blue-primary);
 }
 
-.dark .btn-rounded:hover,
-.btn-rounded:hover
+.btn-rounded:hover{
+  color: var(--blue-primary);
+  background-color: #f8f9fd;
+}
+
+.dark .btn-rounded:hover
+
  {
   color: var(--blue-primary);
   background-color: #181A1B;
