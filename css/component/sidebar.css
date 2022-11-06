@@ -77,7 +77,7 @@
   position: absolute;
   border-radius: 4px;
   transform: translateX(-50%);
-  background-color: var(--blue-primary);
+  /* background-color: var(--blue-primary); */
 }
 
 .dark .item-menu:hover,
@@ -87,7 +87,7 @@
 
 .item-menu.active {
   font-weight: 600;
-  color: var(--blue-primary);
+  /* color: var(--blue-primary); */
   background: linear-gradient(90deg, #f3f5ff 0%, rgba(212, 219, 255, 0) 100%);
 }
 

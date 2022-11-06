@@ -133,7 +133,7 @@ margin-top: 10px;
 }
 
 .dark .item-menu.active {
-  color: var(--blue-primary);
+  /* color: var(--blue-primary); */
   background: linear-gradient(
     90deg,
     rgb(27, 30, 31) 0%,
@@ -146,9 +146,10 @@ margin-top: 10px;
 }
 
 .dark .search-bar > input,
-.dark .btn-setting {
+.dark .btn-setting:hover{
   background: #181a1b;
-  color: #d1cdc7;
+  /* color: #d1cdc7; */
+  color: var(--blue-primary);
 }
 
 .dark .store-detail {
