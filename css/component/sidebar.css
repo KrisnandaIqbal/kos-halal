@@ -91,7 +91,7 @@
   background: linear-gradient(90deg, #f3f5ff 0%, rgba(212, 219, 255, 0) 100%);
 }
 
-.circle-notif {
+/* .circle-notif {
   width: 25px;
   height: 25px;
   display: flex;
@@ -101,11 +101,15 @@
   justify-content: center;
   color: var(--blue-primary);
   background-color: var(--blue-secondary);
-}
+} */
 
 .sidebar footer {
   padding: 40px 40px 60px;
   color: #c5c5c5;
+}
+
+.credit footer {
+  margin: 0px 20px;
 }
 
 .label-mode {
